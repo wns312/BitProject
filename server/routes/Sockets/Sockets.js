@@ -1,8 +1,8 @@
 const { NsModel } = require('../../models/NsModel');
 const { RoomModel } = require("../../models/RoomModel");
 const { User } = require("../../models/User");
-const { Event } = require("../../models/Event");
-const { Schedule } = require("../../models/Schedule");
+const { Event } = require("../../models/event");
+const { Schedule } = require("../../models/schedule");
 
 function nsSettings(io, NS_io, nsSocket) {
   nsSocket.on('clickRoom', (_id)=>{

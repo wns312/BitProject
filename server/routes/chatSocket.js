@@ -4,7 +4,7 @@ const nsSettings = require('./Sockets/Sockets')
 const { NsModel } = require('../models/NsModel');
 const { RoomModel } = require("../models/RoomModel");
 const { User } = require("../models/User");
-const { Schedule } = require("../models/Schedule");
+const { Schedule } = require("../models/schedule");
 
 module.exports = function (io) {
   const router = express.Router();

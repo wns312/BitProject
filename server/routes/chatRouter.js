@@ -17,7 +17,10 @@ module.exports = function (io) {
   //파일 로컬 저장부분
   router.post('/uploadfiles',(req, res)=>{
     upload(req, res, (error)=>{
-      if(error) return res.json({success : false, error}); //에러처리
+      if(error) {
+	      console.log(error);
+	      return res.json({success : false, error});
+      } //에러처리
       let {filename, path, mimetype} = res.req.file;
       let url = `http://${process.env.IP_ADDRESS}:9000/${path}`;
       

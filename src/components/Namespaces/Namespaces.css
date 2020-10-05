@@ -1,7 +1,7 @@
 #bpp {
   display: grid;
   grid-template-rows: 40px 1fr;
-  color : rgb(216, 227, 240);
+  color : rgb(224, 224, 224);
   height: 100%;
   background-color:rgb(255, 255, 255);
   cursor: default;
@@ -17,7 +17,7 @@ header {
 .logout {
   grid-column: 2;
   text-align: center;
-  color : rgb(216, 227, 240);
+  color : rgb(224, 224, 224);
   font-weight: 600;
   font-size: 0.9rem;
   padding-top : 10px;

@@ -159,9 +159,12 @@ module.exports =router
 
 function sendingEmail(user) {
   const Verifiedtoken = jwt.sign(user._id.toHexString(), "registerToken");
-  const url2 = `http://localhost:3000/valid/${Verifiedtoken}`;
+  const url2 = `http://15.164.171.194:3000/valid/${Verifiedtoken}`;
   let transporter = nodemailer.createTransport({
     service: "gmail",
+    host : 'smtp.gmail.com',
+    port : 587,
+    secure : false,
     auth: { user: "bitbitlegit@gmail.com",  pass: "!bit9000" },
   });
   const mailOptions = {
