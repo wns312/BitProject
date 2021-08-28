@@ -60,6 +60,6 @@ LateGuys는 **비대면 환경에서의 원활한 소통**과, **일정 공유**
 
 ## 💫개발 일정
 
-![image-20210828172710638](C:\Users\wns31\Desktop\BitProject\README.assets\image-20210828172710638.png)
+![image-20210828172710638](https://user-images.githubusercontent.com/61006711/131212096-fc99f2ec-9a1f-459b-9dc5-3a6df4229e89.png)
 
 
